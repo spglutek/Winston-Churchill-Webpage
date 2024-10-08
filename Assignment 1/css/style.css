@@ -1,0 +1,83 @@
+/*Spencer Glutek (8998254)*/
+body{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    font: 16px Arial, sans-serif;
+    padding: 20px;
+}
+
+.structural{
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 0px;
+    margin: 10px;
+}
+
+header{
+    text-align: center;
+    background-color: burlywood
+}
+h1, h2{
+    color: purple;
+    font-variant: small-caps;
+}
+
+footer p{
+    font-size: 16px;
+    color: rgb(53, 53, 53);
+    text-align: center;
+}
+
+main{
+    float: left;
+    width: 720px;
+    padding: 20px;
+    margin: 10px
+}
+aside{
+    float: left;
+    width: 360px;
+    padding: 20px;
+    margin: 10px;
+    background-color: bisque;
+    min-height: 1200px;
+    border-radius: 30px;
+}
+
+footer{
+    padding-top: 20px;
+    clear:both;
+    background-color: burlywood;
+}
+
+.mainimg{
+    border: 2px solid navy;
+    width: 500px;
+
+}
+figcaption{
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+q{
+    font-family: cursive;
+    font-style: italic;
+    font-size: 1.1em;
+}
+
+ul li{
+    list-style-type: none;
+    line-height: 2;
+}
+ul > li > a{
+    text-decoration: none;
+    color: green;
+}
+
+aside a:hover{
+    color: orange;
+}
+
+
